@@ -13,11 +13,11 @@ body {
     width: 50%;
     padding-left: 10%;
 }
-.first-div h1 {
+h1 {
     font-size: 50px;
 }
-.first-div p {
-
+h3 {
+    font-size: 25px;
 }
 .first-span {
     color:#ff4d4d;
@@ -41,54 +41,66 @@ body {
     display: flex;
     margin-bottom: 100px;
 }
+.experience-heading {
+    font-size: 50px;
+    color: #130f40;
+}
 .third-section {
     background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: left;
-    display: flex; 
-    margin: 0;
-    transition: 0.5s;
-    margin-bottom: 35px;
-    
+    display: flex;
+    margin-bottom: 200px;
 }
-.espacial3 h1 {
-    text-align: center;
-    
-}
-.parabaz {
+.before {
+    font-size: 40px;
     text-align: center;
 }
-.third-section .second-div h1 {
-    font-size: 50px;
+.first-div h4 {
+    color:darkred;
+    text-align:center ;
+    font-size:25px;
+}
+.after {
+    font-size: 40px;
     text-align: center;
 }
-.third-section .second-div h3 {
+.second-div h4 {
+    color: dodgerblue;
     text-align: center;
+    font-size: 25px;
 }
-.espacial3 {
-    width: 50%;
-    box-shadow: 10px 10px 100px rgb(90, 60, 60);
-    margin-right: 50px;
-    padding: 20px;
-    
+#box-shadow-add {
+    width: 35%;
+    height: 50vh;
+    box-shadow: 10px 10px 100px lightgray;
+    margin-left: 5%;
+    padding: 50px;
+    padding-top: 10px;
+    transition: 0.7s;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon, indianred, purple, dodgerblue);
+    border-image-slice: 1;
    
 }
-.espacial4 {
-    width: 50%;
-    box-shadow: 10px 10px 100px rgb(90, 60, 60);
-    margin-right: 50px;
-    padding: 20px;
-   
+#box-shadow-add:hover {
+    box-shadow: 10px 10px 100px rgb(82, 73, 73);
 }
-#before-death {
-    border-left: 10px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato,indianred,darkred,orange,red);
+#box-shadow-add-another {
+    width: 35%;
+    height: 50vh;
+    box-shadow: 10px 10px 100px lightgray;
+    margin-left: 5%;
+    padding: 50px;
+    padding-top: 10px;
+    transition: 0.7s;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, darkblue, darkcyan, cyan);
     border-image-slice: 1;
+    
 }
-#after-death {
-    border-left: 10px solid;
-    border-image: linear-gradient(180deg,blue,cyan,hotpink,purple);
-    border-image-slice: 1;
+#box-shadow-add-another:hover {
+    box-shadow: 10px 10px 100px rgb(82,73,73);
 }
 footer {
     text-align: center;

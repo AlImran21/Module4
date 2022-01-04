@@ -1,11 +1,13 @@
 .read-more {
-    background-image: linear-gradient(salmon,tomato,indianred);
+    background-image: linear-gradient(to right,darkcyan,dodgerblue,darkblue,purple);
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 15px;
     color: whitesmoke;
+    font-weight: 700;
+    font-size: 25px;
     padding: 10px;
     transition: 0.5s;
 }
 .read-more:hover {
-    box-shadow: 2px 2px 10px #ff3838;
+    
 }

@@ -1,8 +1,8 @@
 .ghost-head {
-    background-color: black;
-    color: whitesmoke;
+    background-color: #535c68;
+    color: ghostwhite;
     text-decoration: none;
-    padding: 10px;
-    border-radius: 35px;
+    padding: 15px;
+    border-radius: 40px;
     font-weight: 100;
 }
